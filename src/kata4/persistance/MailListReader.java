@@ -1,4 +1,4 @@
-package kata4;
+package kata4.persistance;
 
 import kata4.model.Mail;
 import java.io.BufferedReader;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-class MailListReader {
+public class MailListReader {
 
     public static List<Mail> read(String fileName) {
         List<Mail> list = new ArrayList<>();
